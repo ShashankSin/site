@@ -1,0 +1,281 @@
+body{
+	margin: 0;
+	font-family: arial;
+}
+.test{
+	height: 100px;
+	background: green;
+}
+nav{
+	background:#a81f00;
+}
+.center{
+	width: 960px;
+	margin: auto;
+}
+nav ul{
+	margin: 0;
+	padding: 0;
+	float: right;
+}
+nav li{
+	float: left;
+	display: inline-block;
+	list-style: none;
+ 	margin-left: 25px;
+}
+nav a {
+	display: block;
+ 	text-decoration: none;
+ 	font-family: arial;
+ 	font-size: 14px;
+ 	color: #ffff;
+	height: 44px;
+	line-height: 44px;	
+}
+nav a:hover {
+	color: #ff0;
+}
+nav .active-menu {
+	background: #000;
+	padding: 0 15px;
+	cursor: default;
+}
+nav .active-menu:hover {
+	color: #fff;
+}
+.clear{
+	clear: both;
+	display: block;
+}
+
+
+
+.don{
+	margin-top: 2px;
+	background: #e5e5e5;
+	padding: 30px 0;
+}
+.social{
+	float: right;
+}
+
+.social a{
+ 	float: left; 
+ 	color: black; 
+ 	text-decoration: none;
+	font-family: arial; 
+	margin-left: 10px;
+	height: 37px;
+	overflow: hidden;
+}
+.social img{
+	float: left;
+	transition: .5s;
+}
+.social a:hover img{
+	margin-top: -37px;
+}
+.logo{ 
+	background:red; 
+	float: left; 
+	color:black; 
+	text-decoration: none; 
+	font-family: arial;
+	font-size: 14px; 
+} 
+img { 
+	display: block; 
+}
+.banner{
+	background: url(../images/sha.png) center top;
+	/*background-size: 100%;*/
+}
+.battery img{
+	float: left;
+	margin: 27px 0 0 40px;
+}
+.ourproduct{
+	float: right;
+	margin:54px 49px 0 0;
+}
+
+.ourproduct ul{
+	padding: 3px 0 0 0;
+	margin: 6px 0 0 34px;
+}
+.ourproduct li{
+	list-style: none;
+	text-decoration: underline;
+	font-family: arial;
+	font-size: 18px;
+	background: url(../images/light.png) 0 -1px no-repeat;
+	padding-left: 26px; 
+	color: #fff;
+	margin-top: 6px;
+}
+.btnn{
+	display: inline-block;
+	background: #b43e23 url(../images/power.png) 12px 9px no-repeat;
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 14px;
+	padding: 0 15px;
+	height: 36px;
+	line-height: 36px;
+	border-radius: 18px;
+	padding-left: 38px;
+}
+.btn-grey{
+	background-color: #909090;
+}
+.btnn:hover{
+	background-color: #00611f;
+}
+.ourproduct .btnn{
+	margin: 23px 0 0 34px;
+}
+main{
+	text-align: center;
+}
+main .center h1{
+	margin top: 53px;
+	font-size: 46px;
+	color: #a0260b;
+	font-weight: normal;
+	height: 33px;
+}
+main p {
+	font-size: 20px;
+	line-height: 28px;
+	font-size: 20px;
+	margin: 12px 0 0 0;
+	font-weight: 700px;
+}
+main .btnn{
+	margin-top: 32px;
+}
+.feature {
+	float: left;
+	margin-left: 35px;
+}
+.bor{
+	padding-left: 35px;
+	padding-right: 35px;
+	border-right: 1px dashed #737373;
+	border-left: 1px dashed #737373;
+}
+section .center{
+	border-top: 1px dashed #737373;
+	margin-top:32px;
+}
+.feature img{
+	float: left;
+	margin-top: 37px;
+}
+.feature span{
+	float: left;
+	margin: 50px 0 0 26px;	
+}
+.feature strong{
+	display: block;
+	font-size: 30px;
+	color: #a81f00;
+}
+.feature small{
+	display: block;
+	font-size: 18px;
+	margin-top: 4px;	
+}
+footer{
+	background:#e5e5e5;
+	border-top: 2px solid #b7b7b7;
+	margin-top:47px;
+}
+.fe{
+	border-bottom: 2px dashed #b7b7b7;
+}
+.fleft{
+	float: left;	
+}
+.fleft h3{
+	margin:0;
+	font-size: 24px;
+	color: #a81f00;
+	text-decoration: underline;
+	padding-top:37px;
+}
+.fleft ul{
+	padding: 0;
+	float: left;
+}
+.bar{
+	margin-right: 40px;
+}
+.fleft li{
+	list-style: none;
+	line-height: 25px;
+}
+.fleft a{
+	color: #5f9a7b;
+	font-size: 14px;
+}
+.fright{
+	float: left;
+	padding-top: 40px;
+	margin-left: 52px;
+}
+.hoffice h4{
+	margin: 0;
+	color: #007843;
+}
+.hoffice p{
+	margin: 0;
+	padding-top: 2px;
+	line-height: 23px;
+	font-size: 14px;
+}
+.boffice{
+	float: left;
+}
+.boffice h5{
+	margin:0;
+	padding: 20px 0 0 0;
+	color: #a81f00;
+}
+.boffice p{
+	margin: 7px 0 0 0;
+	font-size: 12px;
+	line-height: 19px;
+}
+.bof{
+	margin-right: 33px;
+}
+.hoffice a{
+	color: #000;
+	text-decoration: none;
+}
+.boffice a{
+	color: #000;
+	text-decoration: none;
+}
+.hoffice a:hover{
+	color: red;
+}
+.boffice a:hover{
+	color: red;
+}
+.tea{
+	background:#e5e5e5 url(../images/tid.png) 550px center no-repeat;
+}
+.fas{
+	float: left;
+	margin: 21px 0 ;
+	font-size: 12px;
+}
+.tea h3{
+	float: right;
+	font-size: 20px;
+	color: #696969;
+}
